@@ -10,7 +10,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "10 CENTRES DE RECHERCHE", "5 LABORATOIRES DE HAUT NIVEAU", "3 cités universitaires aggreables"  ];
+  const toRotate = [ "7 LABORATOIRES DE QUALITE", "UN CENTRE D'INCUBATION", "3 ATELIERS POUR LES TRAVEAUX MECANIQUES"  ];
   const [period, setPeriod] = useState(3000);
 
   useEffect(() => {
@@ -55,8 +55,8 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Bienvenu au ENSMR Patrimony</span>
-                <h1>{`L'ENSMR dispose de +`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "10 CENTRES DE RECHERCHE", "5 LABORATOIRE DE HAUT NIVEAU", "3 cités universitaires aggreables" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <h1>{`L'ENSMR dispose de +`} <span className="txt-rotate" dataPeriod="1000" data-rotate="[ '7 LABORATOIRES DE QUALITE', 'UN CENTRE INCUBATIF', '3 ATELIERS POUR LES TRAVEAUX MECANIQUES']"><span className="wrap">{text}</span></span></h1>
+                  <p>Le patrimoine de l'ENSMR est un atout majeur pour sa réputation et son excellence académique, offrant un environnement exceptionnel pour la formation d'une nouvelle génération d'ingénieurs compétents et innovants.</p>
               </div>}
             </TrackVisibility>
           </Col>

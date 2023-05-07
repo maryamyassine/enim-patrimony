@@ -301,7 +301,7 @@ span.navbar-text {
 }
 
 .subproject-details .nav.nav-pills .nav-item {
-  width: 20%;
+  width: 50%;
 }
 
 .subproject-details .nav.nav-pills .nav-link {
@@ -348,7 +348,7 @@ span.navbar-text {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
-
+/* 
 .nav-link#projects-tabs-tab-third {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
@@ -363,12 +363,13 @@ span.navbar-text {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 0 55px 55px 0;
 }
-
+ */
 
 /************ ProjectDetails Css ************/
 .project-details {
   padding: 120px 0;
   position: relative;
+  height: 90vh;
   background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.1) -5.91%, rgba(74, 47, 189, 0.7) 111.58%);
 }
 
@@ -392,11 +393,12 @@ span.navbar-text {
 
 .project-details p {
   color: #B8B8B8;
-  font-size: 18px;
+  font-size: 24px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   margin: 14px auto 30px auto;
   text-align: center;
+  margin-top: 35vh;
   width: 56%;
 }
 
@@ -409,7 +411,7 @@ span.navbar-text {
 }
 
 .project-details .nav.nav-pills .nav-item {
-  width: 20%;
+  width: 50%;
 }
 
 .project-details .nav.nav-pills .nav-link {
@@ -457,7 +459,7 @@ span.navbar-text {
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-.nav-link#projects-tabs-tab-third {
+/* .nav-link#projects-tabs-tab-third {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
@@ -470,7 +472,7 @@ span.navbar-text {
 .nav-link#projects-tabs-tab-fifth {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 0 55px 55px 0;
-}
+} */
 
 .proj-imgbx {
   position: relative;
@@ -564,7 +566,7 @@ span.navbar-text {
 }
 
 .project .nav.nav-pills .nav-item {
-  width: 20%;
+  width: 50%;
 }
 
 .project .nav.nav-pills .nav-link {
@@ -610,21 +612,7 @@ span.navbar-text {
 .nav-link#projects-tabs-tab-second {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-}
-
-.nav-link#projects-tabs-tab-third {
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-}
-
-.nav-link#projects-tabs-tab-fourth {
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-}
-
-.nav-link#projects-tabs-tab-fifth {
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 0 55px 55px 0;
+  border-radius: 0px 55px 55px 0px;
 }
 
 .proj-imgbx {
@@ -698,6 +686,9 @@ span.navbar-text {
   text-decoration: none;
   color: #fff;
 }
+/* .proj-imgbx img{
+  max-height: 30vh;
+} */
 
 /************ Footer Css ************/
 .footer {

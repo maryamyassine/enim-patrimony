@@ -4,7 +4,6 @@ import { NavBar } from "./components/NavBar";
 import { Footer } from "./components/Footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { ProjectDetails } from "./components/ProjectDetails";
-import { SubProjectDetails } from "./components/SubProjectDetails";
 import Home from './pages/Home';
 
 function App() {
@@ -17,7 +16,6 @@ function App() {
           <Route path="/projects" element={<Home />} />
           <Route path="/contact-us" element={<Home />} />
           <Route path="/project/:id" element={<ProjectDetails />} />
-          <Route path="/subproject/:id1/:id" element={<SubProjectDetails />} />
         </Routes>
         <Footer />
       </div>

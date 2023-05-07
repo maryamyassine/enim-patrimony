@@ -4,25 +4,25 @@
             "id": 1,
             "title": "Département Science de la Terre",
             "description": "Le département des sciences de la Terre est constitué de huit bureaux, des salles numérotées de 9 à 13, d'une cave ainsi que d'un laboratoire de topographie",
-            "imgUrl": "../assets/img/Département-science-de-la-Terre.jpg"
+            "imgUrl": "../assets/img/Departement-science-de-la-Terre.jpg"
         },
         {
             "id": 2,
-            "title": "Déparetement Mine",
+            "title": "Déparetement des Mines",
             "description": "Le département des mines est constitué d'un laboratoire de traitement des minerais, d'un laboratoire de mécanique des roches, d'un laboratoire d'hydrométallurgie et d'environnement, d'un centre de formation pour la certification en anticorrosion, d'un laboratoire de chimie, d'un amphithéâtre nommé Amphithéâtre 1, d'une salle polyvalente, d'un centre d'incubation ainsi que des salles numérotées de 1 à 8",
-            "imgUrl": ""
+            "imgUrl": "../assets/img/Département mines.jpg"
         },
         {
             "id": 3,
             "title": "Electromécanique",
             "description": "Cette section du département électromécanique comporte l'amphithéâtre 3, la salle électromécanique, le laboratoire électronique le laboratoire électrotechnique ainsi que les salles 16-17",
-            "imgUrl": ""
+            "imgUrl": "../assets/img/Département éléctromécanique.jpg"
         },
         {
             "id": 4,
             "title": "Département Génie des Matériaux ",
             "description": "Le département génie des matériaux comporte dans sa totalité les salles 14-15, un atelier mécanique, un laboratoire de traction et un laboratoire de polissage",
-            "imgUrl": ""
+            "imgUrl": "../assets/img/Département génie des matériaux.jpg"
         },
         {
             "id": 6,
@@ -34,13 +34,13 @@
             "id": 7,
             "title": " Administration",
             "description": "L'administration comprend le bureau du directeur général, le bureau du secrétaire général, le bureau du directeur des études ,le bureau de  recherche et coopération et une salle de réunion",
-            "imgUrl": ""
+            "imgUrl": "../assets/img/Administration.jpg"
         },
         {
             "id": 8,
             "title": " Ressources diverses",
             "description": "Les ressources diverses englobent une mosquée, un magasin, un garage, une buvette dédiée aux étudiants et aux professeurs, un centre de documentation pour les étudiants, des bureaux dédiés aux enseignants, des terrains, une salle de sport, un foyer des élèves ingénieurs, une salle de tirage, deux amphithéâtres (Amphi 2A et Amphi 2B), deux grandes salles (grande salle 2 et 3 )et un restaurant",
-            "imgUrl": ""
+            "imgUrl": "../assets/img/salle de sport.jpg"
         }
 
     ]
