@@ -2,8 +2,26 @@
     "departements": [
         {
             "id": 1,
-            "title": "Sc de la terre",
-            "description": "",
+            "title": "Département Electromécanique",
+            "description": "Cette section du département électromécanique comprend un atelier de fabrication mécanique et un atelier de RDM",
+            "imgUrl": ""
+        },
+        {
+            "id": 2,
+            "title": "Département Génie de Procédé Industriel ",
+            "description": "Le département génie des procédés industriel comporte un laboratoire MDF et les salles 18 jusqu'à 22",
+            "imgUrl": ""
+        },
+        {
+            "id": 3,
+            "title": "Département Informatique",
+            "description": "Le département informatique comprend des salles d'étude et un centre de calcul",
+            "imgUrl": ""
+        },
+        {
+            "id": 4,
+            "title": " Ressources diverses ",
+            "description": " Les ressources diverses englobent Centre de perfectionnement, Service de de stage, Cite 2, Cite 3, Résidence des doctorants ",
             "imgUrl": ""
         }
     ]
