@@ -16,7 +16,7 @@ export const NavBar = () => {
         setScrolled(false);
       }
       if(window.scrollY > document.getElementById('home').offsetHeight){
-        setActiveLink('projects');
+        setActiveLink('departements');
       }
       if(window.scrollY + 70< document.getElementById('home').offsetHeight){
         setActiveLink('home');
@@ -36,14 +36,11 @@ export const NavBar = () => {
     setActiveLink('home');
   }
   const handleProjectsClick = () => {
-    setActiveLink('projects');
+    setActiveLink('departements');
     window.scrollTo({ top: document.getElementById("project").offsetTop, behavior: 'smooth' });
     
   }
-  const handleContactClick = () => {
-    window.scrollTo({ top: document.getElementById("footer").offsetTop, behavior: 'smooth' });
-    setActiveLink('contact-us');
-  }
+  
 
   return (
     <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
@@ -57,7 +54,7 @@ export const NavBar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link as={Link} to="/" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => handleHomeClick()}>Home</Nav.Link>
-            <Nav.Link as={Link} to="/projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => handleProjectsClick()}>Projects</Nav.Link>
+            <Nav.Link as={Link} to="/projects" className={activeLink === 'departements' ? 'active navbar-link' : 'navbar-link'} onClick={() => handleProjectsClick()}>Départements</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
