@@ -1,0 +1,17 @@
+{
+    "departements": [
+        {
+            "id": 1,
+            "title": "Sc de la terre",
+            "description": "",
+            "imgUrl": ""
+        },
+        {
+            "id": 2,
+            "title": "Sc de la terre",
+            "description": "",
+            "imgUrl": ""
+        }
+
+    ]
+}

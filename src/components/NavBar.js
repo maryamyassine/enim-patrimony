@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import logo from '../assets/img/logo.svg';
+import logo1 from '../assets/img/ENSMR PATRIMONY.svg'
 import { Link } from "react-router-dom";
 
 export const NavBar = () => {
@@ -49,7 +49,7 @@ export const NavBar = () => {
     <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand as={Link} to="/">
-          <img src={logo} alt="Logo" />
+          <img src={logo1} alt="Logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>
