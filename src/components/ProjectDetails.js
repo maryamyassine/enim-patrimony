@@ -10,13 +10,13 @@ export const ProjectDetails = () => {
   const { id } = useParams();
   console.log(id) // Retrieve the project id from the URL
   var project;
-  if (id < 9) {
+  if (id < 8) {
     project = principaleData.departements[id - 1];
     console.log('principale') // Retrieve the specific project using the id
 
   }
   else {
-    project = annexeData.departements[id - 9];
+    project = annexeData.departements[id - 8];
     console.log(project)
 
   }

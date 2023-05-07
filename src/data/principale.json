@@ -25,19 +25,19 @@
             "imgUrl": "../assets/img/Département génie des matériaux.jpg"
         },
         {
-            "id": 6,
+            "id": 5,
             "title": "Département Industriel ",
             "description": " Le département industriel comprend la grande salle 1, le bureau de chef de département et le Bureau de la coordinatrice ",
-            "imgUrl": ""
+            "imgUrl": "../assets/img/Départementindustriel.jpg"
         },
         {
-            "id": 7,
+            "id": 6,
             "title": " Administration",
             "description": "L'administration comprend le bureau du directeur général, le bureau du secrétaire général, le bureau du directeur des études ,le bureau de  recherche et coopération et une salle de réunion",
             "imgUrl": "../assets/img/Administration.jpg"
         },
         {
-            "id": 8,
+            "id": 7,
             "title": " Ressources diverses",
             "description": "Les ressources diverses englobent une mosquée, un magasin, un garage, une buvette dédiée aux étudiants et aux professeurs, un centre de documentation pour les étudiants, des bureaux dédiés aux enseignants, des terrains, une salle de sport, un foyer des élèves ingénieurs, une salle de tirage, deux amphithéâtres (Amphi 2A et Amphi 2B), deux grandes salles (grande salle 2 et 3 )et un restaurant",
             "imgUrl": "../assets/img/salle de sport.jpg"
