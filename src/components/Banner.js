@@ -10,7 +10,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ 'de + 7 LABORATOIRES DE QUALITE', 'd UN CENTRE INCUBATIF', '3 ATELIERS POUR LES TRAVAUX MECANIQUES'];
+  const toRotate = [ 'de + 7 LABORATOIRES DE QUALITE', 'd UN CENTRE INCUBATIF', 'de 3 ATELIERS POUR LES TRAVAUX MECANIQUES'];
   const [period, setPeriod] = useState(3000);
 
   useEffect(() => {
@@ -55,7 +55,7 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Bienvenue au ENSMR Patrimony</span>
-                <h1>{`L'ENSMR dispose  `} <span className="txt-rotate" dataPeriod="1000" data-rotate="[ 'de + 7 LABORATOIRES DE QUALITE', 'd UN CENTRE INCUBATIF', '3 ATELIERS POUR LES TRAVAUX MECANIQUES']"><span className="wrap">{text}</span></span></h1>
+                <h1>{`L'ENSMR dispose  `} <span className="txt-rotate" dataPeriod="1000" data-rotate="[ 'de + 7 LABORATOIRES DE QUALITE', 'd UN CENTRE INCUBATIF', 'de 3 ATELIERS POUR LES TRAVAUX MECANIQUES']"><span className="wrap">{text}</span></span></h1>
                   <p>Le patrimoine de l'ENSMR est un atout majeur pour sa réputation et son excellence académique, offrant un environnement exceptionnel pour la formation d'une nouvelle génération d'ingénieurs compétents et innovants.</p>
               </div>}
             </TrackVisibility>
